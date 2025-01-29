@@ -28,15 +28,22 @@ security:
     algorithm: AES-256-GCM  # 加密算法
 ```
 📜 指令手册
-指令	权限	描述
+指令 权限 描述
+
 /chatgpt ask	chatgpt.user.ask	向AI提问
+
 /chatgptadmin reload	chatgpt.admin	重载配置
+
 /chatgpt_emergency lock	chatgpt.emergency	紧急锁定
 
 🔒 权限节点
+
 chatgpt.user.base: true    # 默认开放基础功能
+
 chatgpt.admin: op          # OP默认拥有管理权限
+
 chatgpt.emergency: false   # 需手动授予紧急权限
+
 🛠️ 开发者指南
 
 # 克隆仓库
