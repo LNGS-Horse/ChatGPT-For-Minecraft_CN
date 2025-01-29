@@ -16,7 +16,7 @@
 4. 按需配置 `proxies.yml` 自定义代理
 
 ## ⚙️ 配置说明
-```yaml
+```
 # 核心配置项
 proxy:
   mode: plugin       # 代理模式 [plugin/none/custom]
@@ -26,27 +26,32 @@ proxy:
 security:
   encryption: 
     algorithm: AES-256-GCM  # 加密算法
+```
 📜 指令手册
 指令	权限	描述
 /chatgpt ask	chatgpt.user.ask	向AI提问
 /chatgptadmin reload	chatgpt.admin	重载配置
 /chatgpt_emergency lock	chatgpt.emergency	紧急锁定
+
 🔒 权限节点
 chatgpt.user.base: true    # 默认开放基础功能
 chatgpt.admin: op          # OP默认拥有管理权限
 chatgpt.emergency: false   # 需手动授予紧急权限
 🛠️ 开发者指南
+
 # 克隆仓库
-git clone https://github.com/your-repo.git
+git clone https://github.com
 
 # 构建项目
 mvn clean package
 
 # 依赖管理
+```
 <dependency>
   <groupId>com.squareup.okhttp3</groupId>
   <artifactId>okhttp</artifactId>
   <version>4.11.0</version>
 </dependency>
+```
 📄 开源协议
 本项目基于 MIT License 开源。详见 LICENSE 文件
