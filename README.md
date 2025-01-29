@@ -1,6 +1,6 @@
-# ChatGPT For Minecraft to China
+# ChatGPT For Minecraft to China(CFMC)
 
-为Minecraft服务器集成安全的ChatGPT功能，专为中国网络环境优化。
+为Minecraft服务器集成安全的ChatGPT功能，专为国内网络环境优化。
 
 ## 🚀 功能特性
 - **安全代理**：内置Nginx反向代理，自动处理网络限制
